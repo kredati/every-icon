@@ -12,9 +12,9 @@ BlinkingPixel.prototype = {
   update: function() {},
 
   display: function() {
-    stroke(255);
+    stroke(0);
     strokeWeight(1);
-    (this.on) ? fill(255) : fill(0);
+    (this.on) ? fill(0) : fill(255);
     rect(this.position.x, this.position.y, this.size, this.size);
   },
 
