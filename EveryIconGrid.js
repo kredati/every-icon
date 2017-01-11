@@ -1,7 +1,7 @@
 var EveryIconGrid = function(x, y, pixelSize) {
   this.position = new p5.Vector(x, y);
   this.pixelSize = pixelSize;
-  this.incept = new Date('January 14, 1997 21:00:00').getTime();
+  this.incept = new Date('January 27, 1997 09:42:30').getTime();
 };
 
 EveryIconGrid.prototype = {
